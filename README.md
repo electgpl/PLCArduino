@@ -1,4 +1,4 @@
-# PLC-USB
+# PLC Arduino NANO v1 
 
 ![N|Solid](https://raw.githubusercontent.com/electgpl/PLCArduino/master/Desarrollo_V1.0/PLCArduinoV1.brd2.png)
 
