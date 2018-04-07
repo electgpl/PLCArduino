@@ -1,6 +1,6 @@
 # PLC Arduino NANO v1 
 
-![N|Solid](https://raw.githubusercontent.com/electgpl/PLCArduino/master/Desarrollo_V1.0/IMG_20180317_123934_341.jpg)
+![N|Solid](https://raw.githubusercontent.com/electgpl/PLCArduino/master/Desarrollo_V1.0/20180401_202311_01.jpg)
 
 ![N|Solid](https://raw.githubusercontent.com/electgpl/PLCArduino/master/Desarrollo_V1.0/PLCArduinoV1t.png)
 
