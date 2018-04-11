@@ -2,11 +2,11 @@
 
 ![N|Solid](https://raw.githubusercontent.com/electgpl/PLCArduino/master/Desarrollo_V1.0/20180401_202311_01.jpg)
 
-![N|Solid](https://raw.githubusercontent.com/electgpl/PLCArduino/master/Desarrollo_V1.0/PLCArduinoV1t.png)
+![N|Solid](https://raw.githubusercontent.com/electgpl/PLCArduino/master/Desarrollo_V1.0/PLCArduinoV1ser.png)
 
 Este es un PLC de openHard diseñado en base al microcontrolador AVR linea MEGA compatible ArduinoIDE y ArduinoNANO
 
-  - Core AVR
+  - Core AVR - ARDUINO NANO (Versión CH340)
   - Bootloader UART Arduino Compatible
   - USB Programming firmware
   - USB Serial Terminal/Debug
@@ -22,7 +22,6 @@ Este es un PLC de openHard diseñado en base al microcontrolador AVR linea MEGA 
   - Basic
   - Ensamblador
   - Ladder
-  - Niple
   - y mas...
   
 ## Diseño y Desarrollo
