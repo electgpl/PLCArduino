@@ -6,7 +6,7 @@
 
 Este es un PLC de openHard diseñado en base al microcontrolador AVR linea MEGA compatible ArduinoIDE y ArduinoNANO
 
-  - Core AVR - ARDUINO NANO (Versión CH340)
+  - Core AVR - **ARDUINO NANO (Versión CH340)**
   - Bootloader UART Arduino Compatible
   - USB Programming firmware
   - USB Serial Terminal/Debug
