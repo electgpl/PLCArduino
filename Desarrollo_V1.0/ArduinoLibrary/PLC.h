@@ -73,7 +73,9 @@ typedef enum {
 /*==================[functions declaration]==================================*/
 void PLC_Setup(void);
 
-float PLC_ReadAnalogInput(PLCAnalogInput_t input);
+int PLC_ReadAnalogInputRaw(PLCAnalogInput_t input);
+
+float PLC_ReadAnalogInputVolt(PLCAnalogInput_t input);
 
 bool PLC_ReadContact(PLCDigitalInput_t input);
 

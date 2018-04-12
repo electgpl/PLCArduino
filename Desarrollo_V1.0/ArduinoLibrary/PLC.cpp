@@ -58,15 +58,27 @@ void PLC_Setup(void) {
 }
 
 /**
- * @brief Lectura y compensacion del ADC para un canal determinado
+ * @brief Lectura RAW del ADC para un canal determinado
  * 
  * @param input Entrada analogica a leer
  * @return float Valor del ADC compensado
  */
-float PLC_ReadAnalogInput(PLCAnalogInput_t input) {
-  float varAnalog1 = (analogRead(input)*5/1023.0)*3.2;
+int PLC_ReadAnalogInputRaw(PLCAnalogInput_t input) {
+  int varAnalog = analogRead(input)*1.6;
   delay(10);
-  return varAnalog1;
+  return varAnalog;
+}
+
+/**
+ * @brief Lectura de Tension en Volt del ADC para un canal determinado
+ * 
+ * @param input Entrada analogica a leer
+ * @return float Valor del ADC compensado
+ */
+float PLC_ReadAnalogInputVolt(PLCAnalogInput_t input) {
+  float varAnalog = (analogRead(input)*5/1023.0)*3.2;
+  delay(10);
+  return varAnalog;
 }
 
 /**
