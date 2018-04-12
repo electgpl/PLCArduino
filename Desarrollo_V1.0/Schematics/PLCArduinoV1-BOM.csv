@@ -1,26 +1,24 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"SPICEPREFIX";
-"8";"";"LED3MM";"LED3MM";"LD1, LD2, LD3, LD4, LD5, LD6, LD7, LD8";"LED";"";
-"4";"100k";"R-US_0204/5";"0204/5";"R13, R14, R15, R16";"RESISTOR, American symbol";"R";
-"2";"100n";"C-EU050-024X044";"C050-024X044";"C2, C3";"CAPACITOR, European symbol";"C";
-"2";"100u";"CPOL-EUE3.5-8";"E3,5-8";"C1, C4";"POLARIZED CAPACITOR, European symbol";"C";
-"3";"10k";"R-US_0204/5";"0204/5";"R20, R21, R22";"RESISTOR, American symbol";"R";
-"4";"1N4148";"1N4148";"DO35-10";"D2, D3, D4, D5";"DIODE";"";
-"1";"1N5819-T";"1N5819-T";"DO41-7.6";"D1";"1.0A SCHOTTKY BARRIER RECTIFIER";"";
-"4";"1k";"R-US_0204/5";"0204/5";"R23, R24, R28, R30";"RESISTOR, American symbol";"R";
-"3";"22k";"R-US_0204/5";"0204/5";"R17, R18, R19";"RESISTOR, American symbol";"R";
-"4";"2N3904";"2N3904";"TO92";"Q1, Q2, Q3, Q4";"NPN Transistor";"";
-"8";"2k2";"R-US_0204/5";"0204/5";"R1, R2, R3, R4, R9, R10, R11, R12";"RESISTOR, American symbol";"R";
-"4";"470";"R-US_0204/5";"0204/5";"R27, R29, R33, R34";"RESISTOR, American symbol";"R";
-"4";"47k";"R-US_0204/5";"0204/5";"R25, R26, R31, R32";"RESISTOR, American symbol";"R";
-"4";"4k7";"R-US_0204/5";"0204/5";"R5, R6, R7, R8";"RESISTOR, American symbol";"R";
-"1";"7805T";"7805T";"TO220H";"IC1";"Positive VOLTAGE REGULATOR";"";
-"1";"82114R";"82114R";"82114R";"L1";"INDUCTOR";"L";
-"1";"ARDUINO-NANO-3.0";"ARDUINO-NANO-3.0";"ARDUINO-NANO-3.0";"M1";"Arduino Nano 3.0 and compatible devices";"";
-"1";"DK60";"POLYSWITCH5MM";"SO5K11";"PS1";"";"";
-"3";"FIDUCIAL1X2.5";"FIDUCIAL1X2.5";"FIDUCIAL-1X2.5";"JP1, JP2, JP3";"Fiducial Alignment Points";"";
-"4";"G5L";"G5L";"G5LE";"K1, K2, K3, K4";"RELAY";"";
-"1";"LM324N";"LM324N";"DIL14";"IC2";"OP AMP";"";
-"8";"MKDSN1,5/2-5,08";"MKDSN1,5/2-5,08";"MKDSN1,5/2-5,08";"X1, X2, X3, X4, X5, X6, X7, X8";"MKDSN 1,5/ 2-5,08 Printklemme";"";
-"4";"MKDSN1,5/3-5,08";"MKDSN1,5/3-5,08";"MKDSN1,5/3-5,08";"X9, X10, X11, X12";"MKDSN 1,5/ 3-5,08 Printklemme";"";
-"1";"OSHW-LOGOM";"OSHW-LOGOM";"OSHW-LOGO-M";"U1";"Open Source Hardware Logo This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW";"";
-"4";"PC817";"PC817";"DIL04";"OK1, OK2, OK3, OK4";"SHARP OPTO COUPLER";"";
+Qty;Parts;Value;Package;Description
+4;R13, R14, R15, R16;100k;0204/5;RESISTOR, American symbol
+3;R20, R21, R22;10k;0204/5;RESISTOR, American symbol
+4;R23, R24, R28, R30;1k;0204/5;RESISTOR, American symbol
+3;R17, R18, R19;22k;0204/5;RESISTOR, American symbol
+8;R1, R2, R3, R4, R9, R10, R11, R12;2k2;0204/5;RESISTOR, American symbol
+4;R27, R29, R33, R34;470;0204/5;RESISTOR, American symbol
+4;R25, R26, R31, R32;47k;0204/5;RESISTOR, American symbol
+4;R5, R6, R7, R8;4k7;0204/5;RESISTOR, American symbol
+2;C2, C3;100n;C050-024X044;CAPACITOR, European symbol
+2;C1, C4;100u;E3,5-8;POLARIZED CAPACITOR, European symbol
+8;LD1, LD2, LD3, LD4, LD5, LD6, LD7, LD8;;LED3MM;LED
+4;D2, D3, D4, D5;1N4148;DO35-10;DIODE
+1;D1;1N5819-T;DO41-7.6;1.0A SCHOTTKY BARRIER RECTIFIER
+4;Q1, Q2, Q3, Q4;2N3904;TO92;NPN Transistor
+1;IC1;7805T;TO220H;Positive VOLTAGE REGULATOR
+1;IC2;LM324N;DIL14;OP AMP
+4;OK1, OK2, OK3, OK4;PC817;DIL04;SHARP OPTO COUPLER
+1;L1;82114R;82114R;INDUCTOR
+1;PS1;DK60;SO5K11;Polyswitch
+4;K1, K2, K3, K4;G5L;G5LE;RELAY
+8;X1, X2, X3, X4, X5, X6, X7, X8;MKDSN1,5/2-5,08;MKDSN1,5/2-5,08;MKDSN 1,5/ 2-5,08 Printklemme
+4;X9, X10, X11, X12;MKDSN1,5/3-5,08;MKDSN1,5/3-5,08;MKDSN 1,5/ 3-5,08 Printklemme
+1;M1;ARDUINO-NANO;ARDUINO-NANO;Arduino Nano 3.0 Bridge CH340
