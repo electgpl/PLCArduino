@@ -26,9 +26,12 @@ Este es un PLC de openHard diseñado en base al microcontrolador AVR linea MEGA 
   
 ## Diseño y Desarrollo
 
-> Diseñado con EAGLE, en dos capas con componentes THT para facilitar
+> Diseñado en dos capas con componentes THT para facilitar
 > la integración al alumno, el desarrollo del PCB en el hogar y mantener
 > el menor costo posible.
+>
+> PCB creado en [PCBWay]
+> Diseño realizado en [Eagle]
 
 ### Instalación
 
@@ -51,4 +54,5 @@ MIT
 
 **Free Software, Hell Yeah!**
 
-
+[PCBWay]: <https://www.pcbway.com/>
+[Eagle]: <https://www.autodesk.com/products/eagle/overview>
